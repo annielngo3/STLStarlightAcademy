@@ -8,10 +8,11 @@ body {
  
 
 /* NAVBAR */
-ul {
+.nav-list {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-top: 20px;
+    padding-left: 10px;
     overflow: hidden;
     background-color: white;
   }
@@ -23,10 +24,12 @@ ul {
     transition: 0.4s;
     text-decoration: none;
   }
-  
-  li {
+ 
+  #pay-tuition, #contact-us, #testimonials, #program-dropdown, #about-dropdown {
     float: right;
+    padding-right: 15px;
   }
+
   
   li a, .dropbtn {
     display: inline-block;
@@ -74,109 +77,18 @@ ul {
   .container {
     background: rgba(255, 255, 255, 0.9);
     text-align: center;
-    margin-top: 10%;
+    margin-top: 7%;
     margin-left: 10%;
+    margin-bottom: 10%;
     width: 80%;
     height: auto;
+    padding: 10px;
   }
   
-  #main-body-title {
+  #main-classroom-title {
     font-family: 'Barlow', sans-serif;
-    color:  rgb(114, 182, 182);
-  }
-  #pg-1, #pg-2 {
-    font-family: 'Patrick Hand SC', cursive;
-    letter-spacing: 2px;
-    font-size: 25px;
-  }
-  #phone-number {
-    color: rgb(114, 182, 182);
-    font-size: 25px;
-  }
-
-/* Our Team Styling */
-#manage-team-title {
-    text-align: center;
-    font-family: 'Barlow', sans-serif;
-    color:  rgb(114, 182, 182);
-    font-size: 45px;
-  }
-
-  #center-dir-title {
-    font-family: 'Barlow', sans-serif;
-    color: rgb(245, 183, 67);
-    font-size: 25px;
-  }
-
-  img {
-      float: left;
-      margin-right: 20px;
-  }
-
-  #description-1{
-    font-family: 'Patrick Hand SC', cursive;
-    letter-spacing: 2px;
-    font-size: 25px;
-  }
- /* Curriculum Styling */
- #main-body-title {
-    text-align: center;
-    font-family: 'Barlow', sans-serif;
-    color:  rgb(114, 182, 182);
-  }
-  #curriculum-goals {
-    font-family: 'Barlow', sans-serif;
-    color:  rgb(114, 182, 182);
-  }
-  #pg-1, #pg-2 {
-    font-family: 'Patrick Hand SC', cursive;
-    letter-spacing: 2px;
-    font-size: 25px;
-  }
-/* CLASSROOM STYLING */
-img {
-    height: 400px;
-    width: auto;
-  }
- 
-   #main-classroom-title{
-    text-align: center;
-    font-family: 'Barlow', sans-serif;
-    color:  rgb(114, 182, 182);
     font-size: 50px;
-  }
-  .card {
-    float: left;
-    margin: 10px;
-  }
-  .card-title {
-    text-align: center;
-    font-family: 'Barlow', sans-serif;
-    color:  rgb(245, 183, 67);
-    font-size: 18px;
-  }
-
-  /* PROGRAMS */
-
-  /* INFANTS STYLING */
-  #infant-title {
-    font-family: 'Barlow', sans-serif;
+    margin-bottom: 15px;
     color:  rgb(114, 182, 182);
     text-align: center;
-  }
-
-  #inf-1, #inf-2, #inf-3 {
-    font-family: 'Patrick Hand SC', cursive;
-    letter-spacing: 2px;
-    font-size: 25px;
-  }
-  #infant-benefits {
-    font-family: 'Barlow', sans-serif;
-    text-align: left;
-    color:  rgb(245, 183, 67);
-    font-size: 22px;
-  }
-  #benefits {
-    font-family: 'Barlow', sans-serif;
-    color:  rgb(100, 96, 96);
   }
