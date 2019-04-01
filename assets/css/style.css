@@ -159,7 +159,7 @@ body {
 
   #curriculum-goals {
     font-family: 'Barlow', sans-serif;
-    color: rgb(245, 183, 67);
+    color: rgb(41, 190, 53);
     text-align: left;
     margin-left: 50px;
     margin-bottom: 10px;
@@ -172,7 +172,7 @@ body {
     margin-left: 75px;
     text-align: left;
     line-height: 30px;
-    color: rgb(170, 32, 32);
+    color: #6170f5;
     font-size: 18px;
   }
 
@@ -227,7 +227,7 @@ img {
   }
   #infant-benefits {
     font-family: 'Barlow', sans-serif;
-    color: rgb(245, 183, 67);
+    color: rgb(41, 190, 53);
     font-size: 25px;
     text-align: left;
     margin-left: 51px;
@@ -238,7 +238,7 @@ img {
     margin-left: 75px;
     text-align: left;
     font-size: 18px;
-    color: rgb(170, 32, 32);
+    color: #6170f5;
     line-height: 30px;
   }
 
