@@ -11,8 +11,8 @@ body {
 /* NAVBAR */
 .nav-list {
     list-style-type: none;
-    padding-top: 20px;
-    padding-left: 10px;
+    padding-top: 21px;
+    padding-left: 5px;
     overflow: hidden;
     background-color: white;
   }
@@ -25,7 +25,7 @@ body {
     text-decoration: none;
   } */
   
-  #pay-tuition, #contact-us, #testimonials, #program-dropdown, #about-dropdown {
+  #pay-tuition, #contact-us, #testimonials, #program-dropdown, #about-dropdown, #home-button {
     float: right;
     padding-right: 15px;
   }
@@ -42,11 +42,16 @@ body {
     transition: 0.4s;
     text-decoration: none;
     letter-spacing: 1px;
+    font-size: 18px;
   }
   
+  /* FIGURE OUT WEBKIT AND HOVER */
   li a:hover, .dropdown:hover .dropbtn {
-    background-color: rgba(22, 214, 205, 0.63);
+    /* background-color: rgba(58, 241, 232, 0.897); */
+    color: #6170f5;
+    -webkit-transform: scale(1.2);
   }
+
   
   li.dropdown {
     display: inline-block;
@@ -69,7 +74,10 @@ body {
     text-align: left;
   }
   
-  .dropdown-content a:hover {background-color: #f1f1f1}
+  .dropdown-content a:hover {
+    /* background-color:rgb(240, 120, 224); */
+    color: rgb(240, 120, 224);
+  }
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -93,7 +101,7 @@ body {
     font-family: 'Barlow', sans-serif;
     font-size: 50px;
     margin-bottom: 15px;
-    color:  rgb(228, 145, 96);
+    color:  rgb(66, 194, 233);
     text-align: center;
   }
   #pg-1, #pg-2 {
@@ -114,7 +122,7 @@ body {
     font-family: 'Barlow', sans-serif;
     font-size: 50px;
     margin-bottom: 15px;
-    color:  rgb(114, 182, 182);
+    color:  rgb(66, 194, 233);
     text-align: center;
   }
 
@@ -145,7 +153,7 @@ body {
     font-family: 'Barlow', sans-serif;
     font-size: 50px;
     margin-bottom: 15px;
-    color:  rgb(114, 182, 182);
+    color:  rgb(66, 194, 233);
     text-align: center;
   }
 
@@ -184,7 +192,7 @@ img {
    #main-classroom-title{
     text-align: center;
     font-family: 'Barlow', sans-serif;
-    color:  rgb(114, 182, 182);
+    color:  rgb(66, 194, 233);
     font-size: 50px;
   }
   .card {
@@ -204,7 +212,7 @@ img {
   #infant-title {
     text-align: center;
     font-family: 'Barlow', sans-serif;
-    color:  rgb(114, 182, 182);
+    color: rgb(66, 194, 233);
     font-size: 50px;
   }
 
@@ -232,4 +240,17 @@ img {
     font-size: 18px;
     color: rgb(170, 32, 32);
     line-height: 30px;
+  }
+
+  /* FOOTER */
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: rgb(34, 170, 45);
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 19px;
   }
