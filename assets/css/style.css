@@ -1,8 +1,8 @@
 * {box-sizing: border-box;}
 
 body { 
-  background-image: url("../images/li-tzuni-507346-unsplash.jpg");
-  background-size: cover;
+  background-image: url("../images/plush-design-studio-483666-unsplash.jpg");
+  background-size: contain;
   margin: 0;
   font-family: 'Barlow', sans-serif;
 }
@@ -17,13 +17,13 @@ body {
     background-color: white;
   }
 
-  #logo {
+  /* #logo {
     font-family: 'Sacramento', cursive;
     color: black;
     font-size: 70px;
     transition: 0.4s;
     text-decoration: none;
-  }
+  } */
   
   #pay-tuition, #contact-us, #testimonials, #program-dropdown, #about-dropdown {
     float: right;
@@ -38,13 +38,14 @@ body {
     display: inline-block;
     color: black;
     text-align: center;
-    padding: 40px 10px;
+    padding: 60px 10px;
     transition: 0.4s;
     text-decoration: none;
+    letter-spacing: 1px;
   }
   
   li a:hover, .dropdown:hover .dropbtn {
-    background-color: rgba(138, 209, 209, 0.746);
+    background-color: rgba(22, 214, 205, 0.63);
   }
   
   li.dropdown {
@@ -92,7 +93,7 @@ body {
     font-family: 'Barlow', sans-serif;
     font-size: 50px;
     margin-bottom: 15px;
-    color:  rgb(114, 182, 182);
+    color:  rgb(228, 145, 96);
     text-align: center;
   }
   #pg-1, #pg-2 {
@@ -103,7 +104,7 @@ body {
     
   }
   #phone-number {
-    color: rgb(114, 182, 182);
+    color:  rgb(228, 145, 96);
     font-size: 25px;
     line-height: 40px;
   }
