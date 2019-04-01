@@ -49,7 +49,7 @@ body {
   li a:hover, .dropdown:hover .dropbtn {
     /* background-color: rgba(58, 241, 232, 0.897); */
     color: #6170f5;
-    -webkit-transform: scale(1.2);
+    -webkit-transform: scale(1.3);
   }
 
   
@@ -240,6 +240,22 @@ img {
     font-size: 18px;
     color: rgb(170, 32, 32);
     line-height: 30px;
+  }
+
+  /* CONTACT US STYLING */
+  #contact-title {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(66, 194, 233);
+    font-size: 50px;
+  }
+  #contact-number {
+    font-family: 'Barlow', sans-serif;
+    color: rgb(245, 183, 67);
+    font-size: 25px;
+    text-align: center;
+    margin-left: 51px;
+    line-height: 40px;
   }
 
   /* FOOTER */
